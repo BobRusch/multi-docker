@@ -23,7 +23,6 @@ after_success:
   - docker push slickrighty/multi-server
   - docker push slickrighty/multi-worker
  
-
 deploy:
   provider: elasticbeanstalk
   region: us-west-1
